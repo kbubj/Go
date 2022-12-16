@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"github.com/kbubj/Go/greetings"
 )
 
 func main() {
-	fmt.Println(quote.Opt())
+	massage := greetings.Hello("kbubj")
+	fmt.Println(massage)
 }

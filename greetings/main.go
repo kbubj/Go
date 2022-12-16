@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"kbubj/Go/greetings"
+
+	"github.com/kbubj/Go/greetings"
 )
 
 func main() {
